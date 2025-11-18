@@ -1,6 +1,7 @@
 #!/bin/bash
 
 dirs_to_link=(
+	".config/assets/"
 	".config/dunst/"
 	".config/hypr/"
 	".config/tofi/"
