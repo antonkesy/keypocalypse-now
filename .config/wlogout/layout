@@ -1,33 +1,33 @@
 {
     "label" : "exit",
     "action" : "",
-    "text" : "Exit",
-    "keybind" : "h"
+    "text" : "E-xit",
+    "keybind" : "e"
 }
 {
     "label" : "shutdown",
     "action" : "systemctl poweroff",
-    "text" : "Shutdown",
+    "text" : "S-hutdown",
     "keybind" : "s"
 }
 
 {
     "label" : "suspend",
     "action" : "systemctl suspend-then-hibernate",
-    "text" : "Suspend",
-    "keybind" : "u"
+    "text" : "H-ibernate",
+    "keybind" : "h"
 }
 {
     "label" : "lock",
     "action" : "hyprlock",
-    "text" : "Lock",
+    "text" : "L-ock",
     "keybind" : "l"
 }
 {
     "label" : "logout",
     "action" : "hyprctl dispatch exit",
-    "text" : "Logout",
-    "keybind" : "e"
+    "text" : "Logo-u-t",
+    "keybind" : "u"
 }
 {
     "label" : "reboot",
