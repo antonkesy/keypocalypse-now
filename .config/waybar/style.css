@@ -51,6 +51,7 @@ window#waybar {
 #memory,
 #workspaces,
 #tray,
+#custom-settings,
 #backlight {
   background: none;
   padding: 0 10px; /* consistent spacing without breaking the full bar */

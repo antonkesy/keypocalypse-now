@@ -11,10 +11,12 @@
   "modules-right": [
     "cpu",
     "memory",
+    // "bluetooth",
     "network",
     "pulseaudio",
     "pulseaudio#microphone",
     "battery",
+    "custom/settings",
   ],
 
   "hyprland/window": {
@@ -109,5 +111,20 @@
     "tooltip-format-disconnected": "Disconnected",
     "format-alt": " {bandwidthDownBytes}  {bandwidthUpBytes}",
     "interval": 2,
+  },
+
+  "bluetooth": {
+    "format": "{icon}",
+    "format-icons": {
+      "enabled": "",
+      "disabled": "󰂲",
+      "connected": "󰂱",
+    },
+  },
+
+  "custom/settings": {
+    "format": "",
+    "tooltip": false,
+    "on-click": "better-control",
   },
 }
